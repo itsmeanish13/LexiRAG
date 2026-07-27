@@ -1,0 +1,23 @@
+# Environment variables
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+.venv/
+ENV/
+
+# Data & Uploads
+data/uploads/*
+!data/uploads/.gitkeep
+
+# ChromaDB local data
+chroma_data/
+
+# IDE
+.vscode/
+.idea/

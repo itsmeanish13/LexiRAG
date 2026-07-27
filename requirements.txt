@@ -1,0 +1,30 @@
+# ==========================================
+# 1. Core Web Framework & Validation
+# ==========================================
+fastapi==0.111.0
+uvicorn[standard]==0.30.1
+pydantic==2.7.4
+pydantic-settings==2.3.4
+
+# ==========================================
+# 2. LlamaIndex Core & Integrations
+# ==========================================
+llama-index==0.10.50
+llama-index-llms-groq==0.1.4
+llama-index-embeddings-huggingface==0.2.2
+llama-index-vector-stores-chroma==0.1.8
+llama-index-readers-file==0.1.25
+# We will use PyPDF directly for better legal PDF parsing control
+pypdf==4.2.0
+
+# ==========================================
+# 3. Databases
+# ==========================================
+pymongo==4.8.0
+chromadb==0.5.3
+
+# ==========================================
+# 4. Utilities & File Handling
+# ==========================================
+python-dotenv==1.0.1
+python-multipart==0.0.9
