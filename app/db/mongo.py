@@ -9,7 +9,7 @@ class MongoDB:
 # Singleton pattern to ensure only one instance of MongoDB is created
 mongodb = MongoDB()
 
-def init_mongoDB():
+def init_mongo():
     """ Initialize the MongoDB client and database connection. """
     mongodb.client = MongoClient(settings.mongo_uri)
     mongodb.db = mongodb.client[settings.mongo_db_name]
